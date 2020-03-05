@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+	<msapplication>
+		<tile>
+			<square70x70logo src="/us/nsn/san-ildefonso/council/_document/v2/images/favicons/mstile-70x70.png"/>
+			<square150x150logo src="/us/nsn/san-ildefonso/council/_document/v2/images/favicons/mstile-150x150.png"/>
+			<square310x310logo src="/us/nsn/san-ildefonso/council/_document/v2/images/favicons/mstile-310x310.png"/>
+			<TileColor>#800000</TileColor>
+		</tile>
+	</msapplication>
+</browserconfig>
