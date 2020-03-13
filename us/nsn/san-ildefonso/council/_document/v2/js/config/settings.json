@@ -12,6 +12,9 @@
     "themeVersion": "v2",
     "favicon": "/images/favicons/favicon.ico",
     "themeId": "/us/nsn/san-ildefonso/council",
+    "themeType": "custom",
+    "entityName": "sanipueblo",
+    "staticAssets": "git@github.com:oll-test-repos/sanipueblo-law-static-assets.git",
     "style": { "namespaceSuffix": "us-nsn-si-council" },
     "logo": {
       "name": "Pueblo de San Ildefonso",
@@ -45,8 +48,6 @@
       "defaultImage": "/images/og/og_image.png"
     },
     "contact": { "email": "help@openlawlib.org" },
-    "analytics": { "trackingPixel": "/_analytics/pixel.png", "trackingSite": "3" },
-    "entityName": "sanipueblo",
-    "staticAssets": "git@github.com:oll-test-repos/sanipueblo-law-static-assets.git"
+    "analytics": { "trackingPixel": "/_analytics/pixel.png", "trackingSite": "3" }
   }
 }
