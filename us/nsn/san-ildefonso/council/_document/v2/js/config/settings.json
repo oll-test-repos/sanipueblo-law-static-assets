@@ -48,6 +48,6 @@
       "defaultImage": "/images/og/og_image.png"
     },
     "contact": { "email": "help@openlawlib.org" },
-    "analytics": { "trackingPixel": "/_analytics/pixel.png", "trackingSite": "3" }
+    "analytics": { "trackingPixel": "/_analytics/pixel.png", "trackingSite": "" }
   }
 }
