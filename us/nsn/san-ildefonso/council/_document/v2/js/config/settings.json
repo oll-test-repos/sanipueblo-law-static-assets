@@ -37,11 +37,6 @@
       "dir": "ltr"
     },
     "msapp": { "tileColor": "#800000" },
-    "search": {
-      "searchHost": "https://law.sanipueblo.org/",
-      "queryUrl": "/v1/search",
-      "method": "POST"
-    },
     "openGraph": {
       "libraryName": "Pueblo de San Ildefonso",
       "defaultDescription": "Pueblo de San Ildefonso contains latest official version of laws, resolutions, and code.",
