@@ -14,7 +14,10 @@
     "themeId": "/us/nsn/san-ildefonso/council",
     "themeType": "custom",
     "entityName": "sanipueblo",
-    "staticAssets": "git@github.com:oll-test-repos/sanipueblo-law-static-assets.git",
+    "staticAssets": {
+      "development": "git@github.com:oll-test-repos/sanipueblo-law-static-assets.git",
+      "production": "git@github.com:sanipueblo/law-static-assets.git"
+    },
     "style": { "namespaceSuffix": "us-nsn-si-council" },
     "fetchCodeRecency": true,
     "logo": {
