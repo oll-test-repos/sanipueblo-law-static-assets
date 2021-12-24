@@ -5259,7 +5259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ReaderLite": () => (/* binding */ ReaderLite)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "../../../../../../node_modules/core-js/modules/es.string.replace.js");
@@ -5387,7 +5387,7 @@ __webpack_require__.r(__webpack_exports__);
 var ReaderLite = function ReaderLite() {
   var parameters = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
-  var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
     themeSettings: {}
   }, parameters); // Display error if config is not passed
 
@@ -5676,8 +5676,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../../../../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* eslint-disable class-methods-use-this */
@@ -5693,10 +5693,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var DocumentMetadataFetch = /*#__PURE__*/function () {
   function DocumentMetadataFetch() {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, DocumentMetadataFetch);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, DocumentMetadataFetch);
   }
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(DocumentMetadataFetch, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(DocumentMetadataFetch, [{
     key: "meta",
     value: function meta(itemProp) {
       return document.querySelector("meta[itemprop='".concat(itemProp, "']"));
@@ -5767,9 +5767,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.index-of.js */ "../../../../../../node_modules/core-js/modules/es.array.index-of.js");
 /* harmony import */ var core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es_array_for_each_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.array.for-each.js */ "../../../../../../node_modules/core-js/modules/es.array.for-each.js");
@@ -5801,7 +5801,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var FullHtmlFetch = /*#__PURE__*/function () {
   function FullHtmlFetch(contentEl, articleEl) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, FullHtmlFetch);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, FullHtmlFetch);
 
     this._content = contentEl;
     this._article = articleEl;
@@ -5810,7 +5810,7 @@ var FullHtmlFetch = /*#__PURE__*/function () {
   // Default
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__["default"])(FullHtmlFetch, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__["default"])(FullHtmlFetch, [{
     key: "content",
     get: function get() {
       return this._content;
@@ -5896,7 +5896,7 @@ var FullHtmlFetch = /*#__PURE__*/function () {
       var inserting = false;
       var order = '';
 
-      var _iterator = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(paras),
+      var _iterator = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(paras),
           _step;
 
       try {
@@ -5968,8 +5968,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "../../../../../../node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_string_substr_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.string.substr.js */ "../../../../../../node_modules/core-js/modules/es.string.substr.js");
@@ -5997,7 +5997,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var HeadingReorder = /*#__PURE__*/function () {
   function HeadingReorder(contentEl) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, HeadingReorder);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, HeadingReorder);
 
     this._content = contentEl;
   } // Getters and setters
@@ -6005,7 +6005,7 @@ var HeadingReorder = /*#__PURE__*/function () {
   // Default
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(HeadingReorder, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(HeadingReorder, [{
     key: "content",
     get: function get() {
       return this._content;
@@ -6413,7 +6413,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "checkForFilterableTable": () => (/* binding */ checkForFilterableTable),
 /* harmony export */   "attachTableFilterComponent": () => (/* binding */ attachTableFilterComponent)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var core_js_modules_es_string_starts_with_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.starts-with.js */ "../../../../../../node_modules/core-js/modules/es.string.starts-with.js");
 /* harmony import */ var core_js_modules_es_string_starts_with_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_starts_with_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_string_trim_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.trim.js */ "../../../../../../node_modules/core-js/modules/es.string.trim.js");
@@ -6564,7 +6564,7 @@ var parseDocument = function parseDocument(HTMLString, settings, searchResult) {
   if (mainContentArea) {
     // In case there are multiple classes on content area
     // fetch the one that starts with 'ns__'
-    var _iterator = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(mainContentArea.classList || []),
+    var _iterator = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(mainContentArea.classList || []),
         _step;
 
     try {
@@ -6661,7 +6661,7 @@ var removeHighlights = function removeHighlights() {
     if (html_content) {
       var marks = html_content.querySelectorAll('mark');
 
-      var _iterator2 = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(marks || []),
+      var _iterator2 = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(marks || []),
           _step2;
 
       try {
@@ -6712,7 +6712,7 @@ var findAnnotatedEl = function findAnnotatedEl(url) {
 var removeAnnotations = function removeAnnotations() {
   var annotations = document.querySelectorAll('aside.user-generated');
 
-  var _iterator3 = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(annotations),
+  var _iterator3 = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(annotations),
       _step3;
 
   try {
@@ -6751,7 +6751,7 @@ var normalizeURL = function normalizeURL(url) {
   var path = urlSplit[0];
   var hash = urlSplit.length > 1 ? "#".concat(urlSplit[1]) : '';
 
-  var _iterator4 = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(UNWANTED_URL_SUFFIXES),
+  var _iterator4 = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(UNWANTED_URL_SUFFIXES),
       _step4;
 
   try {
@@ -6961,8 +6961,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "missingReaderFonts": () => (/* binding */ missingReaderFonts),
 /* harmony export */   "addReaderFonts": () => (/* binding */ addReaderFonts)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.index-of.js */ "../../../../../../node_modules/core-js/modules/es.array.index-of.js");
 /* harmony import */ var core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_index_of_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.from.js */ "../../../../../../node_modules/core-js/modules/es.array.from.js");
@@ -7010,7 +7010,7 @@ var RESPONSIVE_CSS_FILE = 'responsive.min.css'; // -----------------------------
 var getDocumentResourceLinks = function getDocumentResourceLinks(headSection) {
   var links = headSection.querySelectorAll('link[rel=stylesheet]');
 
-  var _iterator = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
+  var _iterator = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
       _step;
 
   try {
@@ -7034,7 +7034,7 @@ var getDocumentResourceLinks = function getDocumentResourceLinks(headSection) {
 }; // Create <a> html node with specified params
 
 var generateStyleLink = function generateStyleLink(parameters) {
-  var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
     url: '',
     media: ''
   }, parameters); // Error checking
@@ -7132,7 +7132,7 @@ var addReaderFonts = function addReaderFonts(fontArray) {
 var findLink = function findLink(fileName) {
   var links = document.head.querySelectorAll('link[rel=stylesheet]');
 
-  var _iterator2 = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
+  var _iterator2 = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
       _step2;
 
   try {
@@ -7157,7 +7157,7 @@ var findLink = function findLink(fileName) {
 var listLinks = function listLinks() {
   var links = document.head.querySelectorAll('link[rel=stylesheet]');
 
-  var _iterator3 = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
+  var _iterator3 = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(links || []),
       _step3;
 
   try {
@@ -8046,7 +8046,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SearchMixin": () => (/* binding */ SearchMixin)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.number.constructor.js */ "../../../../../../node_modules/core-js/modules/es.number.constructor.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "../../../../../../node_modules/core-js/modules/es.object.to-string.js");
@@ -8345,7 +8345,7 @@ var SearchMixin = {
       // 4. Focus desired element on $nextTick
       var vm = this;
 
-      var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
         type: false,
         // `help` or `search`
         resetPage: false
@@ -9294,8 +9294,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_string_match_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.string.match.js */ "../../../../../../node_modules/core-js/modules/es.string.match.js");
@@ -9341,7 +9341,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Append2Head = /*#__PURE__*/function () {
   function Append2Head(elemType, content) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Append2Head);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Append2Head);
 
     this._elemType = elemType;
     this._content = content;
@@ -9350,7 +9350,7 @@ var Append2Head = /*#__PURE__*/function () {
   } // Getters and setters
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(Append2Head, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(Append2Head, [{
     key: "elemType",
     get: function get() {
       return this._elemType;
@@ -9432,7 +9432,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AsyncQuerySelector": () => (/* binding */ AsyncQuerySelector)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "../../../../../../node_modules/core-js/modules/es.object.to-string.js");
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_web_timers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.timers.js */ "../../../../../../node_modules/core-js/modules/web.timers.js");
@@ -9446,7 +9446,7 @@ __webpack_require__.r(__webpack_exports__);
 // This function waits for element to become available to select it
 // It will wait for 2s by default
 var AsyncQuerySelector = function AsyncQuerySelector(options) {
-  var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
     selector: false,
     maxWait: 2000,
     interval: 20
@@ -9491,8 +9491,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__);
 
@@ -9503,7 +9503,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var FindThemeDir = /*#__PURE__*/function () {
   function FindThemeDir(elem) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FindThemeDir);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FindThemeDir);
 
     this._elem = elem; // Finds path + _document + version number, starting with `v` + any digit
 
@@ -9511,7 +9511,7 @@ var FindThemeDir = /*#__PURE__*/function () {
   } // Getters and Setters
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(FindThemeDir, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(FindThemeDir, [{
     key: "elem",
     get: function get() {
       return this._elem;
@@ -10354,7 +10354,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SharedSearchModule": () => (/* binding */ SharedSearchModule)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.number.constructor.js */ "../../../../../../node_modules/core-js/modules/es.number.constructor.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "../../../../../../node_modules/core-js/modules/es.function.name.js");
@@ -10549,7 +10549,7 @@ var SharedSearchModule = {
     },
     findHit: function findHit(state) {
       return function (id) {
-        var _iterator = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(state.searchData.response.hits.hits || []),
+        var _iterator = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_0__["default"])(state.searchData.response.hits.hits || []),
             _step;
 
         try {
@@ -12222,7 +12222,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.number.constructor.js */ "../../../../../../node_modules/core-js/modules/es.number.constructor.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_array_includes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.includes.js */ "../../../../../../node_modules/core-js/modules/es.array.includes.js");
@@ -12429,7 +12429,7 @@ __webpack_require__.r(__webpack_exports__);
       return Number(this.searchDropdownKeySelected) === Number(itemKey);
     },
     selectOption: function selectOption(parameters) {
-      var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
         itemKey: false,
         itemPath: false,
         itemName: false
@@ -12445,7 +12445,7 @@ __webpack_require__.r(__webpack_exports__);
     selectAndClose: function selectAndClose(parameters) {
       var vm = this;
 
-      var OPTIONS = (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      var OPTIONS = (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
         itemKey: false,
         itemPath: false,
         itemName: false
@@ -44963,7 +44963,7 @@ module.exports = JSON.parse('{"clientVersion":"2.33.2","themeVersion":"v2","them
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "-v2-33-2-" + "de45c0" + ".js";
+/******/ 			return "" + chunkId + "-v2-33-2-" + "881a17" + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

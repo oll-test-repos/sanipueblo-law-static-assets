@@ -12,8 +12,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_string_match_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.string.match.js */ "../../../../../../node_modules/core-js/modules/es.string.match.js");
@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Append2Head = /*#__PURE__*/function () {
   function Append2Head(elemType, content) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Append2Head);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Append2Head);
 
     this._elemType = elemType;
     this._content = content;
@@ -68,7 +68,7 @@ var Append2Head = /*#__PURE__*/function () {
   } // Getters and setters
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(Append2Head, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(Append2Head, [{
     key: "elemType",
     get: function get() {
       return this._elemType;
@@ -150,8 +150,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__);
 
@@ -162,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var FindThemeDir = /*#__PURE__*/function () {
   function FindThemeDir(elem) {
-    (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FindThemeDir);
+    (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FindThemeDir);
 
     this._elem = elem; // Finds path + _document + version number, starting with `v` + any digit
 
@@ -170,7 +170,7 @@ var FindThemeDir = /*#__PURE__*/function () {
   } // Getters and Setters
 
 
-  (0,D_webnode_open_law_library_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(FindThemeDir, [{
+  (0,_Volumes_work_oll_platform_publish_client_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(FindThemeDir, [{
     key: "elem",
     get: function get() {
       return this._elem;
