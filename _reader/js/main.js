@@ -85,14 +85,14 @@ var addReaderLiteScripts = function addReaderLiteScripts() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AddHtmlClasses": () => (/* binding */ AddHtmlClasses),
-/* harmony export */   "hasFileExtension": () => (/* binding */ hasFileExtension),
-/* harmony export */   "isDocumentUrl": () => (/* binding */ isDocumentUrl),
-/* harmony export */   "findThemeDir": () => (/* binding */ findThemeDir),
+/* harmony export */   "addCSS": () => (/* binding */ addCSS),
 /* harmony export */   "addJS": () => (/* binding */ addJS),
-/* harmony export */   "addCSS": () => (/* binding */ addCSS)
+/* harmony export */   "findThemeDir": () => (/* binding */ findThemeDir),
+/* harmony export */   "hasFileExtension": () => (/* binding */ hasFileExtension),
+/* harmony export */   "isDocumentUrl": () => (/* binding */ isDocumentUrl)
 /* harmony export */ });
-/* harmony import */ var C_projects_core_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var C_projects_core_publish_client_node_modules_babel_runtime_helpers_esm_taggedTemplateLiteral_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var D_webnode_open_law_library_platform_2_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var D_webnode_open_law_library_platform_2_publish_client_node_modules_babel_runtime_helpers_esm_taggedTemplateLiteral_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js */ "../../../../../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "../../../../../../node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "../../../../../../node_modules/core-js/modules/es.string.replace.js");
@@ -174,7 +174,7 @@ var hasFileExtension = function hasFileExtension(url) {
     throw new Error("Please add a proper file extension. Got ".concat(extension));
   }
 
-  var urlPattern = new RegExp(String.raw(_templateObject || (_templateObject = (0,C_projects_core_publish_client_node_modules_babel_runtime_helpers_esm_taggedTemplateLiteral_js__WEBPACK_IMPORTED_MODULE_1__["default"])([".", "((#|?){0,1}[a-zA-Z0-9.=#_-]{0,})$"], ["\\.", "((#|\\?){0,1}[a-zA-Z0-9.=#_-]{0,})$"])), extension), 'gmiu');
+  var urlPattern = new RegExp(String.raw(_templateObject || (_templateObject = (0,D_webnode_open_law_library_platform_2_publish_client_node_modules_babel_runtime_helpers_esm_taggedTemplateLiteral_js__WEBPACK_IMPORTED_MODULE_1__["default"])([".", "((#|?){0,1}[a-zA-Z0-9.=#_-]{0,})$"], ["\\.", "((#|\\?){0,1}[a-zA-Z0-9.=#_-]{0,})$"])), extension), 'gmiu');
   return urlPattern.test(url);
 };
 /**
@@ -221,7 +221,7 @@ var findThemeDir = function findThemeDir(url) {
  */
 
 var addJS = function addJS(parameters) {
-  var OPTIONS = (0,C_projects_core_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var OPTIONS = (0,D_webnode_open_law_library_platform_2_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
     src: null,
     head: true
   }, parameters); // Error checks
@@ -249,7 +249,7 @@ var addJS = function addJS(parameters) {
  */
 
 var addCSS = function addCSS(parameters) {
-  var OPTIONS = (0,C_projects_core_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var OPTIONS = (0,D_webnode_open_law_library_platform_2_publish_client_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
     url: null,
     media: null
   }, parameters); // Error checking
