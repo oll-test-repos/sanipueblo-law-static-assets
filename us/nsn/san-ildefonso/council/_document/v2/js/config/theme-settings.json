@@ -1,17 +1,38 @@
 {
-	"clientVersion": "2.48.4",
-	"themeVersion": "v2",
-	"themeType": "custom",
-	"themeName": "custom",
-	"themeId": "/us/nsn/san-ildefonso/council",
-	"style": {"namespaceSuffix":"us-nsn-si-council"},
-	"logo": {
-		"libraryLogo": {"image":"","srcset":[]},
-		"header": {"image":"/images/logo/san-pueblo-logo-fill.svg","srcset":""},
-		"footer": {"image":"","srcset":[]}
-	},
-	"fonts": ["/biticons/biticons.css","/fonts/linguistics-pro/linguisticspro.css"],
-	"contact": {"email":"help@openlawlib.org"},
-	"fetchCodeRecency": true,
-	"reader": {"rootUrl":"/"}
+  "clientVersion": "2.49.0",
+  "themeVersion": "v2",
+  "themeType": "custom",
+  "themeName": "custom",
+  "themeId": "/us/nsn/san-ildefonso/council",
+  "style": {
+    "namespaceSuffix": "us-nsn-si-council"
+  },
+  "logo": {
+    "libraryLogo": {
+      "image": "",
+      "srcset": []
+    },
+    "header": {
+      "image": "/images/logo/san-pueblo-logo-fill.svg",
+      "srcset": ""
+    },
+    "footer": {
+      "image": "",
+      "srcset": []
+    }
+  },
+  "fonts": [
+    "/biticons/biticons.css",
+    "/fonts/linguistics-pro/linguisticspro.css"
+  ],
+  "contact": {
+    "email": "help@openlawlib.org"
+  },
+  "reader": {
+    "rootUrl": "/",
+    "themeVariation": {
+      "header": "hv3",
+      "footer": "fv1"
+    }
+  }
 }
