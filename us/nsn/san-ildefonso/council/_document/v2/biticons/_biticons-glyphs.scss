@@ -1,0 +1,897 @@
+@charset "UTF-8";
+
+// Unicode function to preserve formatting
+@function unicode($str) {
+  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+}
+
+// Include this file in your main SCSS file, so that you can extend icon names
+%icon {
+  font-family: "biticons"; // This is important to differentiate Reader App font from Documents font
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+  text-decoration: none;
+  text-transform: none;
+  // cursor: default;
+}
+
+@function icon-char($filename) {
+  $char: "";
+  
+    @if $filename == add-circle-o {
+      $char: unicode(E001);
+    }
+    @if $filename == add-circle {
+      $char: unicode(E002);
+    }
+    @if $filename == annotation {
+      $char: unicode(E003);
+    }
+    @if $filename == annotations {
+      $char: unicode(E004);
+    }
+    @if $filename == arrow-down {
+      $char: unicode(E005);
+    }
+    @if $filename == arrow-left {
+      $char: unicode(E006);
+    }
+    @if $filename == arrow-right {
+      $char: unicode(E007);
+    }
+    @if $filename == arrow-up {
+      $char: unicode(E008);
+    }
+    @if $filename == arrows-crossed {
+      $char: unicode(E009);
+    }
+    @if $filename == back {
+      $char: unicode(E00A);
+    }
+    @if $filename == bell-ring {
+      $char: unicode(E00B);
+    }
+    @if $filename == bell-subscribe {
+      $char: unicode(E00C);
+    }
+    @if $filename == bell-subscribed {
+      $char: unicode(E00D);
+    }
+    @if $filename == bell {
+      $char: unicode(E00E);
+    }
+    @if $filename == bold {
+      $char: unicode(E00F);
+    }
+    @if $filename == book-detail {
+      $char: unicode(E010);
+    }
+    @if $filename == book-open {
+      $char: unicode(E011);
+    }
+    @if $filename == book-shelf {
+      $char: unicode(E012);
+    }
+    @if $filename == book {
+      $char: unicode(E013);
+    }
+    @if $filename == capitol-hd {
+      $char: unicode(E014);
+    }
+    @if $filename == capitol {
+      $char: unicode(E015);
+    }
+    @if $filename == checkbox-selected-outline {
+      $char: unicode(E016);
+    }
+    @if $filename == checkbox-selected {
+      $char: unicode(E017);
+    }
+    @if $filename == checkbox-square {
+      $char: unicode(E018);
+    }
+    @if $filename == checkbox {
+      $char: unicode(E019);
+    }
+    @if $filename == chevron-down-small {
+      $char: unicode(E01A);
+    }
+    @if $filename == chevron-down {
+      $char: unicode(E01B);
+    }
+    @if $filename == chevron-left-small {
+      $char: unicode(E01C);
+    }
+    @if $filename == chevron-left {
+      $char: unicode(E01D);
+    }
+    @if $filename == chevron-right-small {
+      $char: unicode(E01E);
+    }
+    @if $filename == chevron-right {
+      $char: unicode(E01F);
+    }
+    @if $filename == chevron-thin-bottom {
+      $char: unicode(E020);
+    }
+    @if $filename == chevron-thin-left {
+      $char: unicode(E021);
+    }
+    @if $filename == chevron-thin-right {
+      $char: unicode(E022);
+    }
+    @if $filename == chevron-thin-top {
+      $char: unicode(E023);
+    }
+    @if $filename == chevron-up-small {
+      $char: unicode(E024);
+    }
+    @if $filename == chevron-up {
+      $char: unicode(E025);
+    }
+    @if $filename == circle {
+      $char: unicode(E026);
+    }
+    @if $filename == compare {
+      $char: unicode(E027);
+    }
+    @if $filename == contract {
+      $char: unicode(E028);
+    }
+    @if $filename == conversation-i {
+      $char: unicode(E029);
+    }
+    @if $filename == conversation {
+      $char: unicode(E02A);
+    }
+    @if $filename == court-gavel {
+      $char: unicode(E02B);
+    }
+    @if $filename == document-edit-small {
+      $char: unicode(E02C);
+    }
+    @if $filename == document-empty {
+      $char: unicode(E02D);
+    }
+    @if $filename == document {
+      $char: unicode(E02E);
+    }
+    @if $filename == download {
+      $char: unicode(E02F);
+    }
+    @if $filename == edit-document-empty {
+      $char: unicode(E030);
+    }
+    @if $filename == edit-document {
+      $char: unicode(E031);
+    }
+    @if $filename == email {
+      $char: unicode(E032);
+    }
+    @if $filename == exclamation-o {
+      $char: unicode(E033);
+    }
+    @if $filename == exclamation-triangle {
+      $char: unicode(E034);
+    }
+    @if $filename == exclamation {
+      $char: unicode(E035);
+    }
+    @if $filename == expand {
+      $char: unicode(E036);
+    }
+    @if $filename == eye-crossed {
+      $char: unicode(E037);
+    }
+    @if $filename == eye {
+      $char: unicode(E038);
+    }
+    @if $filename == feedback {
+      $char: unicode(E039);
+    }
+    @if $filename == file-html {
+      $char: unicode(E03A);
+    }
+    @if $filename == file-pdf {
+      $char: unicode(E03B);
+    }
+    @if $filename == file-xml {
+      $char: unicode(E03C);
+    }
+    @if $filename == flag-hd {
+      $char: unicode(E03D);
+    }
+    @if $filename == flag {
+      $char: unicode(E03E);
+    }
+    @if $filename == funnel {
+      $char: unicode(E03F);
+    }
+    @if $filename == group {
+      $char: unicode(E040);
+    }
+    @if $filename == hamburger {
+      $char: unicode(E041);
+    }
+    @if $filename == hamburger2 {
+      $char: unicode(E042);
+    }
+    @if $filename == i {
+      $char: unicode(E043);
+    }
+    @if $filename == indicator {
+      $char: unicode(E044);
+    }
+    @if $filename == info-o {
+      $char: unicode(E045);
+    }
+    @if $filename == info {
+      $char: unicode(E046);
+    }
+    @if $filename == italic {
+      $char: unicode(E047);
+    }
+    @if $filename == key {
+      $char: unicode(E048);
+    }
+    @if $filename == link {
+      $char: unicode(E049);
+    }
+    @if $filename == list-ordered {
+      $char: unicode(E04A);
+    }
+    @if $filename == list-unordered {
+      $char: unicode(E04B);
+    }
+    @if $filename == next-line {
+      $char: unicode(E04C);
+    }
+    @if $filename == ok-o {
+      $char: unicode(E04D);
+    }
+    @if $filename == ok {
+      $char: unicode(E04E);
+    }
+    @if $filename == oll-horizontal {
+      $char: unicode(E04F);
+    }
+    @if $filename == oll-long {
+      $char: unicode(E050);
+    }
+    @if $filename == oll-primary {
+      $char: unicode(E051);
+    }
+    @if $filename == oll-square {
+      $char: unicode(E052);
+    }
+    @if $filename == oll {
+      $char: unicode(E053);
+    }
+    @if $filename == padlock-closed {
+      $char: unicode(E054);
+    }
+    @if $filename == padlock-open {
+      $char: unicode(E055);
+    }
+    @if $filename == paragraph {
+      $char: unicode(E056);
+    }
+    @if $filename == pencil {
+      $char: unicode(E057);
+    }
+    @if $filename == print-share {
+      $char: unicode(E058);
+    }
+    @if $filename == print {
+      $char: unicode(E059);
+    }
+    @if $filename == puzzle {
+      $char: unicode(E05A);
+    }
+    @if $filename == question-o {
+      $char: unicode(E05B);
+    }
+    @if $filename == question {
+      $char: unicode(E05C);
+    }
+    @if $filename == redo {
+      $char: unicode(E05D);
+    }
+    @if $filename == search-not-found-thin {
+      $char: unicode(E05E);
+    }
+    @if $filename == search-not-found {
+      $char: unicode(E05F);
+    }
+    @if $filename == search {
+      $char: unicode(E060);
+    }
+    @if $filename == search2 {
+      $char: unicode(E061);
+    }
+    @if $filename == send-email {
+      $char: unicode(E062);
+    }
+    @if $filename == share {
+      $char: unicode(E063);
+    }
+    @if $filename == shield {
+      $char: unicode(E064);
+    }
+    @if $filename == sign-in {
+      $char: unicode(E065);
+    }
+    @if $filename == sign-out {
+      $char: unicode(E066);
+    }
+    @if $filename == spinner {
+      $char: unicode(E067);
+    }
+    @if $filename == strike {
+      $char: unicode(E068);
+    }
+    @if $filename == substract-circle-o {
+      $char: unicode(E069);
+    }
+    @if $filename == substract-circle {
+      $char: unicode(E06A);
+    }
+    @if $filename == time-back {
+      $char: unicode(E06B);
+    }
+    @if $filename == time-forward {
+      $char: unicode(E06C);
+    }
+    @if $filename == title-1 {
+      $char: unicode(E06D);
+    }
+    @if $filename == title-2 {
+      $char: unicode(E06E);
+    }
+    @if $filename == toc {
+      $char: unicode(E06F);
+    }
+    @if $filename == tools {
+      $char: unicode(E070);
+    }
+    @if $filename == trash {
+      $char: unicode(E071);
+    }
+    @if $filename == triangle-down {
+      $char: unicode(E072);
+    }
+    @if $filename == triangle-left {
+      $char: unicode(E073);
+    }
+    @if $filename == triangle-right {
+      $char: unicode(E074);
+    }
+    @if $filename == triangle-up {
+      $char: unicode(E075);
+    }
+    @if $filename == undo {
+      $char: unicode(E076);
+    }
+    @if $filename == upload {
+      $char: unicode(E077);
+    }
+    @if $filename == user-o-i {
+      $char: unicode(E078);
+    }
+    @if $filename == user-o {
+      $char: unicode(E079);
+    }
+    @if $filename == user {
+      $char: unicode(E07A);
+    }
+    @if $filename == x {
+      $char: unicode(E07B);
+    }
+  @return $char;
+}
+
+@mixin icon($filename, $insert: before) {
+  &:#{$insert} {
+    @extend %icon;
+    content: icon-char($filename);
+  }
+}
+
+// Icon Glyphs
+
+%icon-add-circle-o {
+  @include icon(add-circle-o);
+}
+
+%icon-add-circle {
+  @include icon(add-circle);
+}
+
+%icon-annotation {
+  @include icon(annotation);
+}
+
+%icon-annotations {
+  @include icon(annotations);
+}
+
+%icon-arrow-down {
+  @include icon(arrow-down);
+}
+
+%icon-arrow-left {
+  @include icon(arrow-left);
+}
+
+%icon-arrow-right {
+  @include icon(arrow-right);
+}
+
+%icon-arrow-up {
+  @include icon(arrow-up);
+}
+
+%icon-arrows-crossed {
+  @include icon(arrows-crossed);
+}
+
+%icon-back {
+  @include icon(back);
+}
+
+%icon-bell-ring {
+  @include icon(bell-ring);
+}
+
+%icon-bell-subscribe {
+  @include icon(bell-subscribe);
+}
+
+%icon-bell-subscribed {
+  @include icon(bell-subscribed);
+}
+
+%icon-bell {
+  @include icon(bell);
+}
+
+%icon-bold {
+  @include icon(bold);
+}
+
+%icon-book-detail {
+  @include icon(book-detail);
+}
+
+%icon-book-open {
+  @include icon(book-open);
+}
+
+%icon-book-shelf {
+  @include icon(book-shelf);
+}
+
+%icon-book {
+  @include icon(book);
+}
+
+%icon-capitol-hd {
+  @include icon(capitol-hd);
+}
+
+%icon-capitol {
+  @include icon(capitol);
+}
+
+%icon-checkbox-selected-outline {
+  @include icon(checkbox-selected-outline);
+}
+
+%icon-checkbox-selected {
+  @include icon(checkbox-selected);
+}
+
+%icon-checkbox-square {
+  @include icon(checkbox-square);
+}
+
+%icon-checkbox {
+  @include icon(checkbox);
+}
+
+%icon-chevron-down-small {
+  @include icon(chevron-down-small);
+}
+
+%icon-chevron-down {
+  @include icon(chevron-down);
+}
+
+%icon-chevron-left-small {
+  @include icon(chevron-left-small);
+}
+
+%icon-chevron-left {
+  @include icon(chevron-left);
+}
+
+%icon-chevron-right-small {
+  @include icon(chevron-right-small);
+}
+
+%icon-chevron-right {
+  @include icon(chevron-right);
+}
+
+%icon-chevron-thin-bottom {
+  @include icon(chevron-thin-bottom);
+}
+
+%icon-chevron-thin-left {
+  @include icon(chevron-thin-left);
+}
+
+%icon-chevron-thin-right {
+  @include icon(chevron-thin-right);
+}
+
+%icon-chevron-thin-top {
+  @include icon(chevron-thin-top);
+}
+
+%icon-chevron-up-small {
+  @include icon(chevron-up-small);
+}
+
+%icon-chevron-up {
+  @include icon(chevron-up);
+}
+
+%icon-circle {
+  @include icon(circle);
+}
+
+%icon-compare {
+  @include icon(compare);
+}
+
+%icon-contract {
+  @include icon(contract);
+}
+
+%icon-conversation-i {
+  @include icon(conversation-i);
+}
+
+%icon-conversation {
+  @include icon(conversation);
+}
+
+%icon-court-gavel {
+  @include icon(court-gavel);
+}
+
+%icon-document-edit-small {
+  @include icon(document-edit-small);
+}
+
+%icon-document-empty {
+  @include icon(document-empty);
+}
+
+%icon-document {
+  @include icon(document);
+}
+
+%icon-download {
+  @include icon(download);
+}
+
+%icon-edit-document-empty {
+  @include icon(edit-document-empty);
+}
+
+%icon-edit-document {
+  @include icon(edit-document);
+}
+
+%icon-email {
+  @include icon(email);
+}
+
+%icon-exclamation-o {
+  @include icon(exclamation-o);
+}
+
+%icon-exclamation-triangle {
+  @include icon(exclamation-triangle);
+}
+
+%icon-exclamation {
+  @include icon(exclamation);
+}
+
+%icon-expand {
+  @include icon(expand);
+}
+
+%icon-eye-crossed {
+  @include icon(eye-crossed);
+}
+
+%icon-eye {
+  @include icon(eye);
+}
+
+%icon-feedback {
+  @include icon(feedback);
+}
+
+%icon-file-html {
+  @include icon(file-html);
+}
+
+%icon-file-pdf {
+  @include icon(file-pdf);
+}
+
+%icon-file-xml {
+  @include icon(file-xml);
+}
+
+%icon-flag-hd {
+  @include icon(flag-hd);
+}
+
+%icon-flag {
+  @include icon(flag);
+}
+
+%icon-funnel {
+  @include icon(funnel);
+}
+
+%icon-group {
+  @include icon(group);
+}
+
+%icon-hamburger {
+  @include icon(hamburger);
+}
+
+%icon-hamburger2 {
+  @include icon(hamburger2);
+}
+
+%icon-i {
+  @include icon(i);
+}
+
+%icon-indicator {
+  @include icon(indicator);
+}
+
+%icon-info-o {
+  @include icon(info-o);
+}
+
+%icon-info {
+  @include icon(info);
+}
+
+%icon-italic {
+  @include icon(italic);
+}
+
+%icon-key {
+  @include icon(key);
+}
+
+%icon-link {
+  @include icon(link);
+}
+
+%icon-list-ordered {
+  @include icon(list-ordered);
+}
+
+%icon-list-unordered {
+  @include icon(list-unordered);
+}
+
+%icon-next-line {
+  @include icon(next-line);
+}
+
+%icon-ok-o {
+  @include icon(ok-o);
+}
+
+%icon-ok {
+  @include icon(ok);
+}
+
+%icon-oll-horizontal {
+  @include icon(oll-horizontal);
+}
+
+%icon-oll-long {
+  @include icon(oll-long);
+}
+
+%icon-oll-primary {
+  @include icon(oll-primary);
+}
+
+%icon-oll-square {
+  @include icon(oll-square);
+}
+
+%icon-oll {
+  @include icon(oll);
+}
+
+%icon-padlock-closed {
+  @include icon(padlock-closed);
+}
+
+%icon-padlock-open {
+  @include icon(padlock-open);
+}
+
+%icon-paragraph {
+  @include icon(paragraph);
+}
+
+%icon-pencil {
+  @include icon(pencil);
+}
+
+%icon-print-share {
+  @include icon(print-share);
+}
+
+%icon-print {
+  @include icon(print);
+}
+
+%icon-puzzle {
+  @include icon(puzzle);
+}
+
+%icon-question-o {
+  @include icon(question-o);
+}
+
+%icon-question {
+  @include icon(question);
+}
+
+%icon-redo {
+  @include icon(redo);
+}
+
+%icon-search-not-found-thin {
+  @include icon(search-not-found-thin);
+}
+
+%icon-search-not-found {
+  @include icon(search-not-found);
+}
+
+%icon-search {
+  @include icon(search);
+}
+
+%icon-search2 {
+  @include icon(search2);
+}
+
+%icon-send-email {
+  @include icon(send-email);
+}
+
+%icon-share {
+  @include icon(share);
+}
+
+%icon-shield {
+  @include icon(shield);
+}
+
+%icon-sign-in {
+  @include icon(sign-in);
+}
+
+%icon-sign-out {
+  @include icon(sign-out);
+}
+
+%icon-spinner {
+  @include icon(spinner);
+}
+
+%icon-strike {
+  @include icon(strike);
+}
+
+%icon-substract-circle-o {
+  @include icon(substract-circle-o);
+}
+
+%icon-substract-circle {
+  @include icon(substract-circle);
+}
+
+%icon-time-back {
+  @include icon(time-back);
+}
+
+%icon-time-forward {
+  @include icon(time-forward);
+}
+
+%icon-title-1 {
+  @include icon(title-1);
+}
+
+%icon-title-2 {
+  @include icon(title-2);
+}
+
+%icon-toc {
+  @include icon(toc);
+}
+
+%icon-tools {
+  @include icon(tools);
+}
+
+%icon-trash {
+  @include icon(trash);
+}
+
+%icon-triangle-down {
+  @include icon(triangle-down);
+}
+
+%icon-triangle-left {
+  @include icon(triangle-left);
+}
+
+%icon-triangle-right {
+  @include icon(triangle-right);
+}
+
+%icon-triangle-up {
+  @include icon(triangle-up);
+}
+
+%icon-undo {
+  @include icon(undo);
+}
+
+%icon-upload {
+  @include icon(upload);
+}
+
+%icon-user-o-i {
+  @include icon(user-o-i);
+}
+
+%icon-user-o {
+  @include icon(user-o);
+}
+
+%icon-user {
+  @include icon(user);
+}
+
+%icon-x {
+  @include icon(x);
+}
