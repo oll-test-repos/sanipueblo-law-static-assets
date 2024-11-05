@@ -1,8 +1,9 @@
 @charset "UTF-8";
+@use "sass:string";
 
 // Unicode function to preserve formatting
 @function unicode($str) {
-  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+  @return string.unquote("\"")+string.unquote(string.insert($str, "\\", 1))+string.unquote("\"");
 }
 
 // Include this file in your main SCSS file, so that you can extend icon names
@@ -22,7 +23,7 @@
 
 @function icon-char($filename) {
   $char: "";
-  
+
     @if $filename == add-circle-o {
       $char: unicode(E001);
     }
