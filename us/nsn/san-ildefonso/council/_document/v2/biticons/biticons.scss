@@ -33,7 +33,7 @@
 
 @function icon-char($filename) {
   $char: "";
-
+  
   @if $filename == add-circle-o {
     $char: unicode(E001);
   }
@@ -352,56 +352,62 @@
   @if $filename == substract-circle {
     $char: unicode(E06A);
   }
-  @if $filename == time-back {
+  @if $filename == table-regular {
     $char: unicode(E06B);
   }
-  @if $filename == time-forward {
+  @if $filename == table-responsive {
     $char: unicode(E06C);
   }
-  @if $filename == title-1 {
+  @if $filename == time-back {
     $char: unicode(E06D);
   }
-  @if $filename == title-2 {
+  @if $filename == time-forward {
     $char: unicode(E06E);
   }
-  @if $filename == toc {
+  @if $filename == title-1 {
     $char: unicode(E06F);
   }
-  @if $filename == tools {
+  @if $filename == title-2 {
     $char: unicode(E070);
   }
-  @if $filename == trash {
+  @if $filename == toc {
     $char: unicode(E071);
   }
-  @if $filename == triangle-down {
+  @if $filename == tools {
     $char: unicode(E072);
   }
-  @if $filename == triangle-left {
+  @if $filename == trash {
     $char: unicode(E073);
   }
-  @if $filename == triangle-right {
+  @if $filename == triangle-down {
     $char: unicode(E074);
   }
-  @if $filename == triangle-up {
+  @if $filename == triangle-left {
     $char: unicode(E075);
   }
-  @if $filename == undo {
+  @if $filename == triangle-right {
     $char: unicode(E076);
   }
-  @if $filename == upload {
+  @if $filename == triangle-up {
     $char: unicode(E077);
   }
-  @if $filename == user-o-i {
+  @if $filename == undo {
     $char: unicode(E078);
   }
-  @if $filename == user-o {
+  @if $filename == upload {
     $char: unicode(E079);
   }
-  @if $filename == user {
+  @if $filename == user-o-i {
     $char: unicode(E07A);
   }
-  @if $filename == x {
+  @if $filename == user-o {
     $char: unicode(E07B);
+  }
+  @if $filename == user {
+    $char: unicode(E07C);
+  }
+  @if $filename == x {
+    $char: unicode(E07D);
   }
   @return $char;
 }
@@ -840,6 +846,14 @@
 
   .icon-substract-circle {
     @include icon(substract-circle);
+  }
+
+  .icon-table-regular {
+    @include icon(table-regular);
+  }
+
+  .icon-table-responsive {
+    @include icon(table-responsive);
   }
 
   .icon-time-back {
