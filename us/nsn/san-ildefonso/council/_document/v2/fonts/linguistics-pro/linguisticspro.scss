@@ -1,14 +1,14 @@
-//    Font Weight guide:
-//    ------------------
-//    100 - thin
-//    200
-//    300 - light
-//    400 - regular / normal
-//    500 - medium
-//    600 - semi-bold
-//    700 - bold
-//    800
-//    900 - black / heavy
+// Font Weight Guide
+// -----------------
+// 100 - thin
+// 200 - extralight
+// 300 - light
+// 400 - regular / normal
+// 500 - medium
+// 600 - semi-bold
+// 700 - bold
+// 800 - extrabold
+// 900 - black / heavy
 
 // Font Face mixin
 @mixin fontFace($fontName, $fileName, $fontWeight, $fontStyle) {
