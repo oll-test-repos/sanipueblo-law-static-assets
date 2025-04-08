@@ -11,9 +11,3 @@
  */
 
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
-
-/**!
-* tippy.js v6.3.7
-* (c) 2017-2021 atomiks
-* MIT License
-*/
