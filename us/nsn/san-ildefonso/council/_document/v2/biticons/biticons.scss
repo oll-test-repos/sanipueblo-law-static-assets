@@ -250,164 +250,167 @@
   @if $filename == key {
     $char: unicode(E048);
   }
-  @if $filename == link {
+  @if $filename == link-external {
     $char: unicode(E049);
   }
-  @if $filename == list-ordered {
+  @if $filename == link {
     $char: unicode(E04A);
   }
-  @if $filename == list-unordered {
+  @if $filename == list-ordered {
     $char: unicode(E04B);
   }
-  @if $filename == next-line {
+  @if $filename == list-unordered {
     $char: unicode(E04C);
   }
-  @if $filename == ok-o {
+  @if $filename == next-line {
     $char: unicode(E04D);
   }
-  @if $filename == ok {
+  @if $filename == ok-o {
     $char: unicode(E04E);
   }
-  @if $filename == oll-horizontal {
+  @if $filename == ok {
     $char: unicode(E04F);
   }
-  @if $filename == oll-long {
+  @if $filename == oll-horizontal {
     $char: unicode(E050);
   }
-  @if $filename == oll-primary {
+  @if $filename == oll-long {
     $char: unicode(E051);
   }
-  @if $filename == oll-square {
+  @if $filename == oll-primary {
     $char: unicode(E052);
   }
-  @if $filename == oll {
+  @if $filename == oll-square {
     $char: unicode(E053);
   }
-  @if $filename == padlock-closed {
+  @if $filename == oll {
     $char: unicode(E054);
   }
-  @if $filename == padlock-open {
+  @if $filename == padlock-closed {
     $char: unicode(E055);
   }
-  @if $filename == paragraph {
+  @if $filename == padlock-open {
     $char: unicode(E056);
   }
-  @if $filename == pencil {
+  @if $filename == paragraph {
     $char: unicode(E057);
   }
-  @if $filename == print-share {
+  @if $filename == pencil {
     $char: unicode(E058);
   }
-  @if $filename == print {
+  @if $filename == print-share {
     $char: unicode(E059);
   }
-  @if $filename == puzzle {
+  @if $filename == print {
     $char: unicode(E05A);
   }
-  @if $filename == question-o {
+  @if $filename == puzzle {
     $char: unicode(E05B);
   }
-  @if $filename == question {
+  @if $filename == question-o {
     $char: unicode(E05C);
   }
-  @if $filename == redo {
+  @if $filename == question {
     $char: unicode(E05D);
   }
-  @if $filename == search-not-found-thin {
+  @if $filename == redo {
     $char: unicode(E05E);
   }
-  @if $filename == search-not-found {
+  @if $filename == search-not-found-thin {
     $char: unicode(E05F);
   }
-  @if $filename == search {
+  @if $filename == search-not-found {
     $char: unicode(E060);
   }
-  @if $filename == search2 {
+  @if $filename == search {
     $char: unicode(E061);
   }
-  @if $filename == send-email {
+  @if $filename == search2 {
     $char: unicode(E062);
   }
-  @if $filename == share {
+  @if $filename == send-email {
     $char: unicode(E063);
   }
-  @if $filename == shield {
+  @if $filename == share {
     $char: unicode(E064);
   }
-  @if $filename == sign-in {
+  @if $filename == shield {
     $char: unicode(E065);
   }
-  @if $filename == sign-out {
+  @if $filename == sign-in {
     $char: unicode(E066);
   }
-  @if $filename == spinner {
+  @if $filename == sign-out {
     $char: unicode(E067);
   }
-  @if $filename == strike {
+  @if $filename == spinner {
     $char: unicode(E068);
   }
-  @if $filename == substract-circle-o {
+  @if $filename == strike {
     $char: unicode(E069);
   }
-  @if $filename == substract-circle {
+  @if $filename == substract-circle-o {
     $char: unicode(E06A);
   }
-  @if $filename == table-regular {
+  @if $filename == substract-circle {
     $char: unicode(E06B);
   }
-  @if $filename == table-responsive {
+  @if $filename == table-regular {
     $char: unicode(E06C);
   }
-  @if $filename == time-back {
+  @if $filename == table-responsive {
     $char: unicode(E06D);
   }
-  @if $filename == time-forward {
+  @if $filename == time-back {
     $char: unicode(E06E);
   }
-  @if $filename == title-1 {
+  @if $filename == time-forward {
     $char: unicode(E06F);
   }
-  @if $filename == title-2 {
+  @if $filename == title-1 {
     $char: unicode(E070);
   }
-  @if $filename == toc {
+  @if $filename == title-2 {
     $char: unicode(E071);
   }
-  @if $filename == tools {
+  @if $filename == toc {
     $char: unicode(E072);
   }
-  @if $filename == trash {
+  @if $filename == tools {
     $char: unicode(E073);
   }
-  @if $filename == triangle-down {
+  @if $filename == trash {
     $char: unicode(E074);
   }
-  @if $filename == triangle-left {
+  @if $filename == triangle-down {
     $char: unicode(E075);
   }
-  @if $filename == triangle-right {
+  @if $filename == triangle-left {
     $char: unicode(E076);
   }
-  @if $filename == triangle-up {
+  @if $filename == triangle-right {
     $char: unicode(E077);
   }
-  @if $filename == undo {
+  @if $filename == triangle-up {
     $char: unicode(E078);
   }
-  @if $filename == upload {
+  @if $filename == undo {
     $char: unicode(E079);
   }
-  @if $filename == user-o-i {
+  @if $filename == upload {
     $char: unicode(E07A);
   }
-  @if $filename == user-o {
+  @if $filename == user-o-i {
     $char: unicode(E07B);
   }
-  @if $filename == user {
+  @if $filename == user-o {
     $char: unicode(E07C);
   }
-  @if $filename == x {
+  @if $filename == user {
     $char: unicode(E07D);
+  }
+  @if $filename == x {
+    $char: unicode(E07E);
   }
   @return $char;
 }
@@ -710,6 +713,10 @@
 
   .icon-key {
     @include icon(key);
+  }
+
+  .icon-link-external {
+    @include icon(link-external);
   }
 
   .icon-link {

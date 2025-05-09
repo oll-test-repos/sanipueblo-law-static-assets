@@ -240,164 +240,167 @@
     @if $filename == key {
       $char: unicode(E048);
     }
-    @if $filename == link {
+    @if $filename == link-external {
       $char: unicode(E049);
     }
-    @if $filename == list-ordered {
+    @if $filename == link {
       $char: unicode(E04A);
     }
-    @if $filename == list-unordered {
+    @if $filename == list-ordered {
       $char: unicode(E04B);
     }
-    @if $filename == next-line {
+    @if $filename == list-unordered {
       $char: unicode(E04C);
     }
-    @if $filename == ok-o {
+    @if $filename == next-line {
       $char: unicode(E04D);
     }
-    @if $filename == ok {
+    @if $filename == ok-o {
       $char: unicode(E04E);
     }
-    @if $filename == oll-horizontal {
+    @if $filename == ok {
       $char: unicode(E04F);
     }
-    @if $filename == oll-long {
+    @if $filename == oll-horizontal {
       $char: unicode(E050);
     }
-    @if $filename == oll-primary {
+    @if $filename == oll-long {
       $char: unicode(E051);
     }
-    @if $filename == oll-square {
+    @if $filename == oll-primary {
       $char: unicode(E052);
     }
-    @if $filename == oll {
+    @if $filename == oll-square {
       $char: unicode(E053);
     }
-    @if $filename == padlock-closed {
+    @if $filename == oll {
       $char: unicode(E054);
     }
-    @if $filename == padlock-open {
+    @if $filename == padlock-closed {
       $char: unicode(E055);
     }
-    @if $filename == paragraph {
+    @if $filename == padlock-open {
       $char: unicode(E056);
     }
-    @if $filename == pencil {
+    @if $filename == paragraph {
       $char: unicode(E057);
     }
-    @if $filename == print-share {
+    @if $filename == pencil {
       $char: unicode(E058);
     }
-    @if $filename == print {
+    @if $filename == print-share {
       $char: unicode(E059);
     }
-    @if $filename == puzzle {
+    @if $filename == print {
       $char: unicode(E05A);
     }
-    @if $filename == question-o {
+    @if $filename == puzzle {
       $char: unicode(E05B);
     }
-    @if $filename == question {
+    @if $filename == question-o {
       $char: unicode(E05C);
     }
-    @if $filename == redo {
+    @if $filename == question {
       $char: unicode(E05D);
     }
-    @if $filename == search-not-found-thin {
+    @if $filename == redo {
       $char: unicode(E05E);
     }
-    @if $filename == search-not-found {
+    @if $filename == search-not-found-thin {
       $char: unicode(E05F);
     }
-    @if $filename == search {
+    @if $filename == search-not-found {
       $char: unicode(E060);
     }
-    @if $filename == search2 {
+    @if $filename == search {
       $char: unicode(E061);
     }
-    @if $filename == send-email {
+    @if $filename == search2 {
       $char: unicode(E062);
     }
-    @if $filename == share {
+    @if $filename == send-email {
       $char: unicode(E063);
     }
-    @if $filename == shield {
+    @if $filename == share {
       $char: unicode(E064);
     }
-    @if $filename == sign-in {
+    @if $filename == shield {
       $char: unicode(E065);
     }
-    @if $filename == sign-out {
+    @if $filename == sign-in {
       $char: unicode(E066);
     }
-    @if $filename == spinner {
+    @if $filename == sign-out {
       $char: unicode(E067);
     }
-    @if $filename == strike {
+    @if $filename == spinner {
       $char: unicode(E068);
     }
-    @if $filename == substract-circle-o {
+    @if $filename == strike {
       $char: unicode(E069);
     }
-    @if $filename == substract-circle {
+    @if $filename == substract-circle-o {
       $char: unicode(E06A);
     }
-    @if $filename == table-regular {
+    @if $filename == substract-circle {
       $char: unicode(E06B);
     }
-    @if $filename == table-responsive {
+    @if $filename == table-regular {
       $char: unicode(E06C);
     }
-    @if $filename == time-back {
+    @if $filename == table-responsive {
       $char: unicode(E06D);
     }
-    @if $filename == time-forward {
+    @if $filename == time-back {
       $char: unicode(E06E);
     }
-    @if $filename == title-1 {
+    @if $filename == time-forward {
       $char: unicode(E06F);
     }
-    @if $filename == title-2 {
+    @if $filename == title-1 {
       $char: unicode(E070);
     }
-    @if $filename == toc {
+    @if $filename == title-2 {
       $char: unicode(E071);
     }
-    @if $filename == tools {
+    @if $filename == toc {
       $char: unicode(E072);
     }
-    @if $filename == trash {
+    @if $filename == tools {
       $char: unicode(E073);
     }
-    @if $filename == triangle-down {
+    @if $filename == trash {
       $char: unicode(E074);
     }
-    @if $filename == triangle-left {
+    @if $filename == triangle-down {
       $char: unicode(E075);
     }
-    @if $filename == triangle-right {
+    @if $filename == triangle-left {
       $char: unicode(E076);
     }
-    @if $filename == triangle-up {
+    @if $filename == triangle-right {
       $char: unicode(E077);
     }
-    @if $filename == undo {
+    @if $filename == triangle-up {
       $char: unicode(E078);
     }
-    @if $filename == upload {
+    @if $filename == undo {
       $char: unicode(E079);
     }
-    @if $filename == user-o-i {
+    @if $filename == upload {
       $char: unicode(E07A);
     }
-    @if $filename == user-o {
+    @if $filename == user-o-i {
       $char: unicode(E07B);
     }
-    @if $filename == user {
+    @if $filename == user-o {
       $char: unicode(E07C);
     }
-    @if $filename == x {
+    @if $filename == user {
       $char: unicode(E07D);
+    }
+    @if $filename == x {
+      $char: unicode(E07E);
     }
   @return $char;
 }
@@ -415,498 +418,1006 @@
   @include icon(add-circle-o);
 }
 
+%icon-after-add-circle-o {
+  @include icon(add-circle-o, after);
+}
+
 %icon-add-circle {
   @include icon(add-circle);
+}
+
+%icon-after-add-circle {
+  @include icon(add-circle, after);
 }
 
 %icon-annotation {
   @include icon(annotation);
 }
 
+%icon-after-annotation {
+  @include icon(annotation, after);
+}
+
 %icon-annotations {
   @include icon(annotations);
+}
+
+%icon-after-annotations {
+  @include icon(annotations, after);
 }
 
 %icon-arrow-down {
   @include icon(arrow-down);
 }
 
+%icon-after-arrow-down {
+  @include icon(arrow-down, after);
+}
+
 %icon-arrow-left {
   @include icon(arrow-left);
+}
+
+%icon-after-arrow-left {
+  @include icon(arrow-left, after);
 }
 
 %icon-arrow-right {
   @include icon(arrow-right);
 }
 
+%icon-after-arrow-right {
+  @include icon(arrow-right, after);
+}
+
 %icon-arrow-up {
   @include icon(arrow-up);
+}
+
+%icon-after-arrow-up {
+  @include icon(arrow-up, after);
 }
 
 %icon-arrows-crossed {
   @include icon(arrows-crossed);
 }
 
+%icon-after-arrows-crossed {
+  @include icon(arrows-crossed, after);
+}
+
 %icon-back {
   @include icon(back);
+}
+
+%icon-after-back {
+  @include icon(back, after);
 }
 
 %icon-bell-ring {
   @include icon(bell-ring);
 }
 
+%icon-after-bell-ring {
+  @include icon(bell-ring, after);
+}
+
 %icon-bell-subscribe {
   @include icon(bell-subscribe);
+}
+
+%icon-after-bell-subscribe {
+  @include icon(bell-subscribe, after);
 }
 
 %icon-bell-subscribed {
   @include icon(bell-subscribed);
 }
 
+%icon-after-bell-subscribed {
+  @include icon(bell-subscribed, after);
+}
+
 %icon-bell {
   @include icon(bell);
+}
+
+%icon-after-bell {
+  @include icon(bell, after);
 }
 
 %icon-bold {
   @include icon(bold);
 }
 
+%icon-after-bold {
+  @include icon(bold, after);
+}
+
 %icon-book-detail {
   @include icon(book-detail);
+}
+
+%icon-after-book-detail {
+  @include icon(book-detail, after);
 }
 
 %icon-book-open {
   @include icon(book-open);
 }
 
+%icon-after-book-open {
+  @include icon(book-open, after);
+}
+
 %icon-book-shelf {
   @include icon(book-shelf);
+}
+
+%icon-after-book-shelf {
+  @include icon(book-shelf, after);
 }
 
 %icon-book {
   @include icon(book);
 }
 
+%icon-after-book {
+  @include icon(book, after);
+}
+
 %icon-capitol-hd {
   @include icon(capitol-hd);
+}
+
+%icon-after-capitol-hd {
+  @include icon(capitol-hd, after);
 }
 
 %icon-capitol {
   @include icon(capitol);
 }
 
+%icon-after-capitol {
+  @include icon(capitol, after);
+}
+
 %icon-checkbox-selected-outline {
   @include icon(checkbox-selected-outline);
+}
+
+%icon-after-checkbox-selected-outline {
+  @include icon(checkbox-selected-outline, after);
 }
 
 %icon-checkbox-selected {
   @include icon(checkbox-selected);
 }
 
+%icon-after-checkbox-selected {
+  @include icon(checkbox-selected, after);
+}
+
 %icon-checkbox-square {
   @include icon(checkbox-square);
+}
+
+%icon-after-checkbox-square {
+  @include icon(checkbox-square, after);
 }
 
 %icon-checkbox {
   @include icon(checkbox);
 }
 
+%icon-after-checkbox {
+  @include icon(checkbox, after);
+}
+
 %icon-chevron-down-small {
   @include icon(chevron-down-small);
+}
+
+%icon-after-chevron-down-small {
+  @include icon(chevron-down-small, after);
 }
 
 %icon-chevron-down {
   @include icon(chevron-down);
 }
 
+%icon-after-chevron-down {
+  @include icon(chevron-down, after);
+}
+
 %icon-chevron-left-small {
   @include icon(chevron-left-small);
+}
+
+%icon-after-chevron-left-small {
+  @include icon(chevron-left-small, after);
 }
 
 %icon-chevron-left {
   @include icon(chevron-left);
 }
 
+%icon-after-chevron-left {
+  @include icon(chevron-left, after);
+}
+
 %icon-chevron-right-small {
   @include icon(chevron-right-small);
+}
+
+%icon-after-chevron-right-small {
+  @include icon(chevron-right-small, after);
 }
 
 %icon-chevron-right {
   @include icon(chevron-right);
 }
 
+%icon-after-chevron-right {
+  @include icon(chevron-right, after);
+}
+
 %icon-chevron-thin-bottom {
   @include icon(chevron-thin-bottom);
+}
+
+%icon-after-chevron-thin-bottom {
+  @include icon(chevron-thin-bottom, after);
 }
 
 %icon-chevron-thin-left {
   @include icon(chevron-thin-left);
 }
 
+%icon-after-chevron-thin-left {
+  @include icon(chevron-thin-left, after);
+}
+
 %icon-chevron-thin-right {
   @include icon(chevron-thin-right);
+}
+
+%icon-after-chevron-thin-right {
+  @include icon(chevron-thin-right, after);
 }
 
 %icon-chevron-thin-top {
   @include icon(chevron-thin-top);
 }
 
+%icon-after-chevron-thin-top {
+  @include icon(chevron-thin-top, after);
+}
+
 %icon-chevron-up-small {
   @include icon(chevron-up-small);
+}
+
+%icon-after-chevron-up-small {
+  @include icon(chevron-up-small, after);
 }
 
 %icon-chevron-up {
   @include icon(chevron-up);
 }
 
+%icon-after-chevron-up {
+  @include icon(chevron-up, after);
+}
+
 %icon-circle {
   @include icon(circle);
+}
+
+%icon-after-circle {
+  @include icon(circle, after);
 }
 
 %icon-compare {
   @include icon(compare);
 }
 
+%icon-after-compare {
+  @include icon(compare, after);
+}
+
 %icon-contract {
   @include icon(contract);
+}
+
+%icon-after-contract {
+  @include icon(contract, after);
 }
 
 %icon-conversation-i {
   @include icon(conversation-i);
 }
 
+%icon-after-conversation-i {
+  @include icon(conversation-i, after);
+}
+
 %icon-conversation {
   @include icon(conversation);
+}
+
+%icon-after-conversation {
+  @include icon(conversation, after);
 }
 
 %icon-court-gavel {
   @include icon(court-gavel);
 }
 
+%icon-after-court-gavel {
+  @include icon(court-gavel, after);
+}
+
 %icon-document-edit-small {
   @include icon(document-edit-small);
+}
+
+%icon-after-document-edit-small {
+  @include icon(document-edit-small, after);
 }
 
 %icon-document-empty {
   @include icon(document-empty);
 }
 
+%icon-after-document-empty {
+  @include icon(document-empty, after);
+}
+
 %icon-document {
   @include icon(document);
+}
+
+%icon-after-document {
+  @include icon(document, after);
 }
 
 %icon-download {
   @include icon(download);
 }
 
+%icon-after-download {
+  @include icon(download, after);
+}
+
 %icon-edit-document-empty {
   @include icon(edit-document-empty);
+}
+
+%icon-after-edit-document-empty {
+  @include icon(edit-document-empty, after);
 }
 
 %icon-edit-document {
   @include icon(edit-document);
 }
 
+%icon-after-edit-document {
+  @include icon(edit-document, after);
+}
+
 %icon-email {
   @include icon(email);
+}
+
+%icon-after-email {
+  @include icon(email, after);
 }
 
 %icon-exclamation-o {
   @include icon(exclamation-o);
 }
 
+%icon-after-exclamation-o {
+  @include icon(exclamation-o, after);
+}
+
 %icon-exclamation-triangle {
   @include icon(exclamation-triangle);
+}
+
+%icon-after-exclamation-triangle {
+  @include icon(exclamation-triangle, after);
 }
 
 %icon-exclamation {
   @include icon(exclamation);
 }
 
+%icon-after-exclamation {
+  @include icon(exclamation, after);
+}
+
 %icon-expand {
   @include icon(expand);
+}
+
+%icon-after-expand {
+  @include icon(expand, after);
 }
 
 %icon-eye-crossed {
   @include icon(eye-crossed);
 }
 
+%icon-after-eye-crossed {
+  @include icon(eye-crossed, after);
+}
+
 %icon-eye {
   @include icon(eye);
+}
+
+%icon-after-eye {
+  @include icon(eye, after);
 }
 
 %icon-feedback {
   @include icon(feedback);
 }
 
+%icon-after-feedback {
+  @include icon(feedback, after);
+}
+
 %icon-file-html {
   @include icon(file-html);
+}
+
+%icon-after-file-html {
+  @include icon(file-html, after);
 }
 
 %icon-file-pdf {
   @include icon(file-pdf);
 }
 
+%icon-after-file-pdf {
+  @include icon(file-pdf, after);
+}
+
 %icon-file-xml {
   @include icon(file-xml);
+}
+
+%icon-after-file-xml {
+  @include icon(file-xml, after);
 }
 
 %icon-flag-hd {
   @include icon(flag-hd);
 }
 
+%icon-after-flag-hd {
+  @include icon(flag-hd, after);
+}
+
 %icon-flag {
   @include icon(flag);
+}
+
+%icon-after-flag {
+  @include icon(flag, after);
 }
 
 %icon-funnel {
   @include icon(funnel);
 }
 
+%icon-after-funnel {
+  @include icon(funnel, after);
+}
+
 %icon-group {
   @include icon(group);
+}
+
+%icon-after-group {
+  @include icon(group, after);
 }
 
 %icon-hamburger {
   @include icon(hamburger);
 }
 
+%icon-after-hamburger {
+  @include icon(hamburger, after);
+}
+
 %icon-hamburger2 {
   @include icon(hamburger2);
+}
+
+%icon-after-hamburger2 {
+  @include icon(hamburger2, after);
 }
 
 %icon-i {
   @include icon(i);
 }
 
+%icon-after-i {
+  @include icon(i, after);
+}
+
 %icon-indicator {
   @include icon(indicator);
+}
+
+%icon-after-indicator {
+  @include icon(indicator, after);
 }
 
 %icon-info-o {
   @include icon(info-o);
 }
 
+%icon-after-info-o {
+  @include icon(info-o, after);
+}
+
 %icon-info {
   @include icon(info);
+}
+
+%icon-after-info {
+  @include icon(info, after);
 }
 
 %icon-italic {
   @include icon(italic);
 }
 
+%icon-after-italic {
+  @include icon(italic, after);
+}
+
 %icon-key {
   @include icon(key);
+}
+
+%icon-after-key {
+  @include icon(key, after);
+}
+
+%icon-link-external {
+  @include icon(link-external);
+}
+
+%icon-after-link-external {
+  @include icon(link-external, after);
 }
 
 %icon-link {
   @include icon(link);
 }
 
+%icon-after-link {
+  @include icon(link, after);
+}
+
 %icon-list-ordered {
   @include icon(list-ordered);
+}
+
+%icon-after-list-ordered {
+  @include icon(list-ordered, after);
 }
 
 %icon-list-unordered {
   @include icon(list-unordered);
 }
 
+%icon-after-list-unordered {
+  @include icon(list-unordered, after);
+}
+
 %icon-next-line {
   @include icon(next-line);
+}
+
+%icon-after-next-line {
+  @include icon(next-line, after);
 }
 
 %icon-ok-o {
   @include icon(ok-o);
 }
 
+%icon-after-ok-o {
+  @include icon(ok-o, after);
+}
+
 %icon-ok {
   @include icon(ok);
+}
+
+%icon-after-ok {
+  @include icon(ok, after);
 }
 
 %icon-oll-horizontal {
   @include icon(oll-horizontal);
 }
 
+%icon-after-oll-horizontal {
+  @include icon(oll-horizontal, after);
+}
+
 %icon-oll-long {
   @include icon(oll-long);
+}
+
+%icon-after-oll-long {
+  @include icon(oll-long, after);
 }
 
 %icon-oll-primary {
   @include icon(oll-primary);
 }
 
+%icon-after-oll-primary {
+  @include icon(oll-primary, after);
+}
+
 %icon-oll-square {
   @include icon(oll-square);
+}
+
+%icon-after-oll-square {
+  @include icon(oll-square, after);
 }
 
 %icon-oll {
   @include icon(oll);
 }
 
+%icon-after-oll {
+  @include icon(oll, after);
+}
+
 %icon-padlock-closed {
   @include icon(padlock-closed);
+}
+
+%icon-after-padlock-closed {
+  @include icon(padlock-closed, after);
 }
 
 %icon-padlock-open {
   @include icon(padlock-open);
 }
 
+%icon-after-padlock-open {
+  @include icon(padlock-open, after);
+}
+
 %icon-paragraph {
   @include icon(paragraph);
+}
+
+%icon-after-paragraph {
+  @include icon(paragraph, after);
 }
 
 %icon-pencil {
   @include icon(pencil);
 }
 
+%icon-after-pencil {
+  @include icon(pencil, after);
+}
+
 %icon-print-share {
   @include icon(print-share);
+}
+
+%icon-after-print-share {
+  @include icon(print-share, after);
 }
 
 %icon-print {
   @include icon(print);
 }
 
+%icon-after-print {
+  @include icon(print, after);
+}
+
 %icon-puzzle {
   @include icon(puzzle);
+}
+
+%icon-after-puzzle {
+  @include icon(puzzle, after);
 }
 
 %icon-question-o {
   @include icon(question-o);
 }
 
+%icon-after-question-o {
+  @include icon(question-o, after);
+}
+
 %icon-question {
   @include icon(question);
+}
+
+%icon-after-question {
+  @include icon(question, after);
 }
 
 %icon-redo {
   @include icon(redo);
 }
 
+%icon-after-redo {
+  @include icon(redo, after);
+}
+
 %icon-search-not-found-thin {
   @include icon(search-not-found-thin);
+}
+
+%icon-after-search-not-found-thin {
+  @include icon(search-not-found-thin, after);
 }
 
 %icon-search-not-found {
   @include icon(search-not-found);
 }
 
+%icon-after-search-not-found {
+  @include icon(search-not-found, after);
+}
+
 %icon-search {
   @include icon(search);
+}
+
+%icon-after-search {
+  @include icon(search, after);
 }
 
 %icon-search2 {
   @include icon(search2);
 }
 
+%icon-after-search2 {
+  @include icon(search2, after);
+}
+
 %icon-send-email {
   @include icon(send-email);
+}
+
+%icon-after-send-email {
+  @include icon(send-email, after);
 }
 
 %icon-share {
   @include icon(share);
 }
 
+%icon-after-share {
+  @include icon(share, after);
+}
+
 %icon-shield {
   @include icon(shield);
+}
+
+%icon-after-shield {
+  @include icon(shield, after);
 }
 
 %icon-sign-in {
   @include icon(sign-in);
 }
 
+%icon-after-sign-in {
+  @include icon(sign-in, after);
+}
+
 %icon-sign-out {
   @include icon(sign-out);
+}
+
+%icon-after-sign-out {
+  @include icon(sign-out, after);
 }
 
 %icon-spinner {
   @include icon(spinner);
 }
 
+%icon-after-spinner {
+  @include icon(spinner, after);
+}
+
 %icon-strike {
   @include icon(strike);
+}
+
+%icon-after-strike {
+  @include icon(strike, after);
 }
 
 %icon-substract-circle-o {
   @include icon(substract-circle-o);
 }
 
+%icon-after-substract-circle-o {
+  @include icon(substract-circle-o, after);
+}
+
 %icon-substract-circle {
   @include icon(substract-circle);
+}
+
+%icon-after-substract-circle {
+  @include icon(substract-circle, after);
 }
 
 %icon-table-regular {
   @include icon(table-regular);
 }
 
+%icon-after-table-regular {
+  @include icon(table-regular, after);
+}
+
 %icon-table-responsive {
   @include icon(table-responsive);
+}
+
+%icon-after-table-responsive {
+  @include icon(table-responsive, after);
 }
 
 %icon-time-back {
   @include icon(time-back);
 }
 
+%icon-after-time-back {
+  @include icon(time-back, after);
+}
+
 %icon-time-forward {
   @include icon(time-forward);
+}
+
+%icon-after-time-forward {
+  @include icon(time-forward, after);
 }
 
 %icon-title-1 {
   @include icon(title-1);
 }
 
+%icon-after-title-1 {
+  @include icon(title-1, after);
+}
+
 %icon-title-2 {
   @include icon(title-2);
+}
+
+%icon-after-title-2 {
+  @include icon(title-2, after);
 }
 
 %icon-toc {
   @include icon(toc);
 }
 
+%icon-after-toc {
+  @include icon(toc, after);
+}
+
 %icon-tools {
   @include icon(tools);
+}
+
+%icon-after-tools {
+  @include icon(tools, after);
 }
 
 %icon-trash {
   @include icon(trash);
 }
 
+%icon-after-trash {
+  @include icon(trash, after);
+}
+
 %icon-triangle-down {
   @include icon(triangle-down);
+}
+
+%icon-after-triangle-down {
+  @include icon(triangle-down, after);
 }
 
 %icon-triangle-left {
   @include icon(triangle-left);
 }
 
+%icon-after-triangle-left {
+  @include icon(triangle-left, after);
+}
+
 %icon-triangle-right {
   @include icon(triangle-right);
+}
+
+%icon-after-triangle-right {
+  @include icon(triangle-right, after);
 }
 
 %icon-triangle-up {
   @include icon(triangle-up);
 }
 
+%icon-after-triangle-up {
+  @include icon(triangle-up, after);
+}
+
 %icon-undo {
   @include icon(undo);
+}
+
+%icon-after-undo {
+  @include icon(undo, after);
 }
 
 %icon-upload {
   @include icon(upload);
 }
 
+%icon-after-upload {
+  @include icon(upload, after);
+}
+
 %icon-user-o-i {
   @include icon(user-o-i);
+}
+
+%icon-after-user-o-i {
+  @include icon(user-o-i, after);
 }
 
 %icon-user-o {
   @include icon(user-o);
 }
 
+%icon-after-user-o {
+  @include icon(user-o, after);
+}
+
 %icon-user {
   @include icon(user);
 }
 
+%icon-after-user {
+  @include icon(user, after);
+}
+
 %icon-x {
   @include icon(x);
+}
+
+%icon-after-x {
+  @include icon(x, after);
 }
