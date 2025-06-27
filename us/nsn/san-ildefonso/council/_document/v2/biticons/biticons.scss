@@ -361,56 +361,59 @@
   @if $filename == table-responsive {
     $char: unicode(E06D);
   }
-  @if $filename == time-back {
+  @if $filename == table-sticky {
     $char: unicode(E06E);
   }
-  @if $filename == time-forward {
+  @if $filename == time-back {
     $char: unicode(E06F);
   }
-  @if $filename == title-1 {
+  @if $filename == time-forward {
     $char: unicode(E070);
   }
-  @if $filename == title-2 {
+  @if $filename == title-1 {
     $char: unicode(E071);
   }
-  @if $filename == toc {
+  @if $filename == title-2 {
     $char: unicode(E072);
   }
-  @if $filename == tools {
+  @if $filename == toc {
     $char: unicode(E073);
   }
-  @if $filename == trash {
+  @if $filename == tools {
     $char: unicode(E074);
   }
-  @if $filename == triangle-down {
+  @if $filename == trash {
     $char: unicode(E075);
   }
-  @if $filename == triangle-left {
+  @if $filename == triangle-down {
     $char: unicode(E076);
   }
-  @if $filename == triangle-right {
+  @if $filename == triangle-left {
     $char: unicode(E077);
   }
-  @if $filename == triangle-up {
+  @if $filename == triangle-right {
     $char: unicode(E078);
   }
-  @if $filename == undo {
+  @if $filename == triangle-up {
     $char: unicode(E079);
   }
-  @if $filename == upload {
+  @if $filename == undo {
     $char: unicode(E07A);
   }
-  @if $filename == user-o-i {
+  @if $filename == upload {
     $char: unicode(E07B);
   }
-  @if $filename == user-o {
+  @if $filename == user-o-i {
     $char: unicode(E07C);
   }
-  @if $filename == user {
+  @if $filename == user-o {
     $char: unicode(E07D);
   }
-  @if $filename == x {
+  @if $filename == user {
     $char: unicode(E07E);
+  }
+  @if $filename == x {
+    $char: unicode(E07F);
   }
   @return $char;
 }
@@ -861,6 +864,10 @@
 
   .icon-table-responsive {
     @include icon(table-responsive);
+  }
+
+  .icon-table-sticky {
+    @include icon(table-sticky);
   }
 
   .icon-time-back {
