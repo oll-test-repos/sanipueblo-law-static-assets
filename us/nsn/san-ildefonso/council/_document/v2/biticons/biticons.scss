@@ -5,8 +5,7 @@
 @font-face {
   font-family: "biticons";
   src:  url('biticons.woff2') format('woff2'),
-        url('biticons.woff') format('woff'),
-        url('biticons.ttf') format('truetype');
+        url('biticons.woff') format('woff');
 }
 
 
@@ -937,3 +936,4 @@
   .icon-x {
     @include icon(x);
   }
+
